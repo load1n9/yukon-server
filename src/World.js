@@ -20,7 +20,7 @@ class World extends Server {
 
 }
 
-let args = process.argv.slice(2)
+const args = process.argv.slice(2)
 
 for (let world of args) {
     if (world in config.worlds) {
